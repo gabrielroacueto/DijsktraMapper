@@ -1,0 +1,13 @@
+There are two data files in this directory, both are for the roads of
+New York City. The .gr file is the graph file, a list of edges and the
+weights between them. Each line that contains an edge starts with the
+character 'a'. It is followed by the id of the starting node, then the
+id of the ending node, finally the weight of that edge.
+
+The .co file is the coordinates file. Every vertex line begins with the
+character 'v'. It is followed by the node id and then the longitude and
+latitude given in decimal degrees to 6 significant places. ex: -73530767
+is -73.3530767 degrees longitude.
+
+The last file in this directory is an example file of how to draw onto
+google maps.
